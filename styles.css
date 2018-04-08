@@ -1,0 +1,139 @@
+body {
+background: url("./images/Lines.png") no-repeat top left;
+background-size: auto;
+clear:both;
+padding:0px;
+margin:0px;
+}
+
+.Logotyp {
+  height: 100px;
+}
+
+h1 {
+  font-family: "abril Fatface";
+  font-weight: lighter;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 30px;
+  display:flex;
+  justify-content: center;
+}
+
+h2 {
+  display:flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 250px;
+  padding-bottom: 100px;
+  font-family: "abril Fatface";
+  font-weight:lighter;
+  color: #ffffff;
+}
+
+.container {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.Post {
+  padding: 30px;
+  margin: 25px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* align-items:center; */
+  background-color: #fafafa;
+  box-shadow:
+  0 0 15px rgba(0,0,0, 0.5);
+}
+
+
+.Post-heading {
+  color: #009d99;
+  font-family: "abril Fatface";
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+
+}
+
+.Post-picture {
+  width: 300px;
+}
+
+.Post-text {
+  color:#000000;
+  font-family:"Open Sans Condensed";
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left: 0px;
+}
+
+.container-two {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.Entry {
+  padding: 30px;
+  margin: 75px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  background-color: #fafafa;
+}
+
+.Entry-heading {
+  padding-left: 30px;
+  color: #009d99;
+  font-family: "abril Fatface";
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.Entry-text {
+  padding-left: 30px;
+  color:#000000;
+  font-family:"Open Sans Condensed";
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left: 0px;
+}
+
+.Entry-picture {
+  width: 30%;
+}
+
+.Img-group {
+  display:row
+}
+@media only screen and (min-width:700px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width:1000px) {
+  h2 {
+    font-size: 55px;
+  }
+}
