@@ -6,8 +6,16 @@ padding:0px;
 margin:0px;
 }
 
-.Logotyp {
-  height: 100px;
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.menu {
+  width: 30px;
 }
 
 h1 {
@@ -91,16 +99,16 @@ a {
 }
 
 .Entry {
-  padding: 30px;
+  padding: 25px;
   margin: 75px;
   width: 50%;
   height: auto;
-  display: flex;
+  display: column;
   background-color: #fafafa;
 }
 
 .Entry-heading {
-  padding-left: 30px;
+  padding-top: 15px;
   color: #009d99;
   font-family: "abril Fatface";
   font-size: 30px;
@@ -111,7 +119,6 @@ a {
 }
 
 .Entry-text {
-  padding-left: 30px;
   color:#000000;
   font-family:"Open Sans Condensed";
   font-weight: lighter;
@@ -120,15 +127,36 @@ a {
 }
 
 .Entry-picture {
-  width: 30%;
+  width: 45%;
 }
 
 .Img-group {
-  display:row
+  display:row;
+  justify-content: space-between;
 }
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #009d99;
+  color:#fafafa;
+  font-family:"Open Sans Condensed";
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+
+
 @media only screen and (min-width:700px) {
   h2 {
     font-size: 40px;
+  }
+  .Post-text {
+    font-size: 20px;
   }
 }
 
