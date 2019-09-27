@@ -131,8 +131,8 @@ a {
 }
 
 .Img-group {
-  display:row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+
 }
 
 .footer {
